@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="SSNTypeParticipation">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}-\d{2}-\d{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="participationInfo">
+	    <xs:complexType>
+	        <xs:sequence>
+	            <xs:element name="individualParticipation" maxOccurs="unbounded">
+	                <xs:complexType>
+	                    <xs:sequence>
+	                        <xs:element name="studentSSN" minOccurs="1" maxOccurs="1" type="SSNTypeParticipation"/>
+	                        <xs:element name="conferenceName" minOccurs="1" maxOccurs="1" type="xs:string"/>
+	                        <xs:element name="conferenceYear" minOccurs="1" maxOccurs="1" type="xs:int"/>
+	                        <xs:element name="registrationNo" minOccurs="1" maxOccurs="1" type="xs:string"/>
+	                        <xs:element name="registrationFee" minOccurs="0" maxOccurs="1" type="xs:int"/>
+	                    </xs:sequence>
+	                </xs:complexType>
+	            </xs:element>
+	        </xs:sequence>
+	    </xs:complexType>
+	</xs:element>
+</xs:schema>

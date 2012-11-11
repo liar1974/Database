@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:simpleType name="SSNType">
+		<xs:restriction base="xs:string">
+		    <xs:pattern value="\d{3}-\d{2}-\d{4}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="students">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="student" minOccurs="1" maxOccurs="unbounded">
+				    <xs:complexType>
+				        <xs:sequence>
+				            <xs:element name="SSN" minOccurs="1" maxOccurs="1" type="SSNType"/>
+				            <xs:element name="student_name" minOccurs="1" maxOccurs="1">
+				                <xs:complexType>
+				                    <xs:sequence>
+				                        <xs:element name="first_name" minOccurs="1" maxOccurs="1" type="xs:string"/>
+				                        <xs:element name="last_name" minOccurs="1" maxOccurs="1" type="xs:string"/>
+				                    </xs:sequence>
+				                </xs:complexType>
+				            </xs:element>
+				            <xs:element name="age" minOccurs="0" maxOccurs="1" type="xs:int"/>
+				            <xs:element name="institutionName" minOccurs="1" maxOccurs="1" type="xs:string"/>
+				            <xs:element name="email" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+				        </xs:sequence>
+				    </xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="student_SSN_pk">
+			<xs:selector xpath=".//student"/>
+			<xs:field xpath="SSN"/>
+		</xs:key>
+	</xs:element>
+</xs:schema>

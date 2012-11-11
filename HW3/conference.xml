@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="conference.xsl"?>
+<conferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="conference.xsd">
+	<conference>
+		<conference_name>ACM Siggraph</conference_name>
+		<year>2010</year>
+		<topic>Computer Graphics</topic>
+		<chair_name>Devevec</chair_name>
+		<chair_name>Baylis</chair_name>
+		<original_city>Boston</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Hilton</hotel_chain_name>
+		<hotel_branch_name>B1</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACM Sigir</conference_name>
+		<year>2010</year>
+		<topic>Information Retrieval</topic>
+		<chair_name>Jordan</chair_name>
+		<original_city>Moscow</original_city>
+		<original_country>Russia</original_country>
+		<hotel_chain_name>Westbound</hotel_chain_name>
+		<hotel_branch_name>B26</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACL</conference_name>
+		<year>2010</year>
+		<topic>Computational Linguistics</topic>
+		<chair_name>Traum</chair_name>
+		<original_city>Los Angeles</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Marriott</hotel_chain_name>
+		<hotel_branch_name>B16</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACM Sigdial</conference_name>
+		<year>2010</year>
+		<topic>Dialogue</topic>
+		<chair_name>Leuski</chair_name>
+		<chair_name>Arkinson</chair_name>
+		<original_city>Madrid</original_city>
+		<original_country>Spain</original_country>
+		<hotel_chain_name>Westin</hotel_chain_name>
+		<hotel_branch_name>B19</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>CVPR</conference_name>
+		<year>2010</year>
+		<topic>Computer Vision</topic>
+		<chair_name>Medioni</chair_name>
+		<chair_name>Feifei</chair_name>
+		<original_city>Portland</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Hilton</hotel_chain_name>
+		<hotel_branch_name>B3</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ECCV</conference_name>
+		<year>2010</year>
+		<topic>Computer Vision</topic>
+		<chair_name>Belongie</chair_name>
+		<original_city>San Diego</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Holidays Inn</hotel_chain_name>
+		<hotel_branch_name>B24</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>VLDB</conference_name>
+		<year>2010</year>
+		<topic>Databases</topic>
+		<chair_name>Shamsian</chair_name>
+		<chair_name>Shahabi</chair_name>
+		<original_city>Tehran</original_city>
+		<original_country>Iran</original_country>
+		<hotel_chain_name>Hyatt</hotel_chain_name>
+		<hotel_branch_name>B18</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACM Siggraph</conference_name>
+		<year>2011</year>
+		<topic>Computer Graphics</topic>
+		<chair_name>Neumann</chair_name>
+		<chair_name>Baylis</chair_name>
+		<chair_name>Ghosh</chair_name>
+		<original_city>London</original_city>
+		<original_country>UK</original_country>
+		<hotel_chain_name>Carlton</hotel_chain_name>
+		<hotel_branch_name>B13</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACM Sigir</conference_name>
+		<year>2011</year>
+		<topic>Information Retrieval</topic>
+		<chair_name>Greyson</chair_name>
+		<original_city>New Orleans</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Hilton</hotel_chain_name>
+		<hotel_branch_name>B3</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACL</conference_name>
+		<year>2011</year>
+		<topic>Computational Linguistics</topic>
+		<chair_name>Kinght</chair_name>
+		<original_city>New York</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Doubletree</hotel_chain_name>
+		<hotel_branch_name>B8</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ACM Sigdial</conference_name>
+		<year>2011</year>
+		<topic>Dialogue</topic>
+		<chair_name>Traum</chair_name>
+		<chair_name>Morency</chair_name>
+		<original_city>Chicago</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Hilton</hotel_chain_name>
+		<hotel_branch_name>B17</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>CVPR</conference_name>
+		<year>2011</year>
+		<topic>Computer Vision</topic>
+		<chair_name>Morency</chair_name>
+		<chair_name>Medioni</chair_name>
+		<chair_name>Navatia</chair_name>
+		<original_city>Atlanta</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Carlton</hotel_chain_name>
+		<hotel_branch_name>B14</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>ECCV</conference_name>
+		<year>2011</year>
+		<topic>Computer Vision</topic>
+		<chair_name>Koller</chair_name>
+		<original_city>Los Angeles</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Hyatt</hotel_chain_name>
+		<hotel_branch_name>B18</hotel_branch_name>
+	</conference>
+	<conference>
+		<conference_name>VLDB</conference_name>
+		<year>2011</year>
+		<topic>Databases</topic>
+		<chair_name>Grey</chair_name>
+		<original_city>Seattle</original_city>
+		<original_country>USA</original_country>
+		<hotel_chain_name>Hilton</hotel_chain_name>
+		<hotel_branch_name>B3</hotel_branch_name>
+	</conference>
+</conferences>

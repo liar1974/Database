@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="conferences">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="conference" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="conference_name" type="xs:string"/>
+							<xs:element name="year" type="xs:int"/>
+							<xs:element name="topic" type="xs:string"/>
+							<xs:element name="chair_name" type="xs:string" maxOccurs="unbounded"/>
+							<xs:element name="original_city" type="xs:string"/>
+							<xs:element name="original_country" type="xs:string"/>
+							<xs:element name="hotel_chain_name" type="xs:string"/>
+							<xs:element name="hotel_branch_name" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:key name="conference_pk">
+			<xs:selector xpath=".//conference"/>
+			<xs:field xpath="conference_name"/>
+			<xs:field xpath="year"/>
+		</xs:key>
+	</xs:element>
+</xs:schema>
